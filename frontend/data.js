@@ -99,4 +99,13 @@ const SERVICES = [
     short: "Attestation of documents for use in India or abroad.",
     docs: ["Original documents", "Your ID proof", "Country and purpose of use", "Passport copy, if needed"],
     steps: ["Check what the receiving country needs", "Notary or department attestation", "Apostille or embassy step, if required", "Return of the attested documents"] },
+
+];
+// Time limits: have the advocates confirm each one before going live.
+const DEADLINES = [
+  { when: "Within 30 days", what: "Legal notice after a cheque bounces", note: "Counted from the date you receive the bank's return memo." },
+  { when: "15 days to pay", what: "Time given to the other side", note: "After they receive the notice. If unpaid, a court complaint can follow within the time allowed by law." },
+  { when: "30 days", what: "Reply to a trademark examination report", note: "Counted from the date the report is issued." },
+  { when: "Every 10 years", what: "Trademark renewal", note: "A registered trademark must be renewed before its validity ends." },
+  { when: "Report at once", what: "Online fraud", note: "Call helpline 1930 or report on cybercrime.gov.in, and tell your bank immediately." },
 ];

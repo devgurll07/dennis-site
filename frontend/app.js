@@ -74,3 +74,5 @@ if (detail) {
 <p class="small">Requirements can differ by case. We confirm the exact list when you contact us.</p>`;
   }
 }
+const dl = $("#deadlines");
+if (dl) dl.innerHTML = DEADLINES.map((d) => `<li><b>${esc(d.when)}</b><strong>${esc(d.what)}</strong><p>${esc(d.note)}</p></li>`).join("");
